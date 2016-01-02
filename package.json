@@ -1,0 +1,28 @@
+{
+  "name": "tradity-bus",
+  "version": "1.0.0",
+  "description": "Module for generic communication between remote Node.js instances",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tradity/tradity-bus.git"
+  },
+  "keywords": [
+    "networking",
+    "cluster",
+    "node",
+    "messaging"
+  ],
+  "author": "Anna Henningsen <sqrt@entless.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradity/tradity-bus/issues"
+  },
+  "homepage": "https://github.com/tradity/tradity-bus#readme"
+}
