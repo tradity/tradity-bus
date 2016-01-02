@@ -1,13 +1,15 @@
 {
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test-cov": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec && ./node_modules/.bin/istanbul report html",
+    "jshint": "./node_modules/.bin/jshint ."
+  },
   "name": "tradity-bus",
   "version": "1.0.0",
   "description": "Module for generic communication between remote Node.js instances",
   "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,16 @@
   "bugs": {
     "url": "https://github.com/tradity/tradity-bus/issues"
   },
-  "homepage": "https://github.com/tradity/tradity-bus#readme"
+  "homepage": "https://github.com/tradity/tradity-bus#readme",
+  "devDependencies": {
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "cytoscape": "^2.5.0",
+    "debug": "^2.2.0",
+    "lodash": "~3.10.0",
+    "object-hash": "^1.0.0"
+  }
 }
