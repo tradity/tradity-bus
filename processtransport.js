@@ -2,9 +2,9 @@
 
 const _ = require('lodash');
 const assert = require('assert');
-const bus = require('./bus.js');
+const BusTransport = require('./transport.js');
 
-class ProcessTransport extends bus.Transport {
+class ProcessTransport extends BusTransport {
   constructor(processObject, weight) {
     super();
     assert.ok(processObject);
@@ -41,4 +41,4 @@ class ProcessTransport extends bus.Transport {
   }
 }
 
-exports.ProcessTransport = ProcessTransport;
+module.exports = ProcessTransport;

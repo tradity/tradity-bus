@@ -2,9 +2,9 @@
 
 const _ = require('lodash');
 const assert = require('assert');
-const bus = require('./bus.js');
+const BusTransport = require('./transport.js');
 
-class DirectTransport extends bus.Transport {
+class DirectTransport extends BusTransport {
   constructor(baseEmitter, weight, isLocal) {
     super();
     assert.ok(baseEmitter);
@@ -30,4 +30,4 @@ class DirectTransport extends bus.Transport {
   }
 }
 
-exports.DirectTransport = DirectTransport;
+module.exports = DirectTransport;
