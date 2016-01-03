@@ -3,6 +3,7 @@ node_js:
   - 5
 sudo: false
 script:
+  - npm run jshint
   - npm run test-cov
 after_success:
   - ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info
