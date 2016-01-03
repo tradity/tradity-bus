@@ -125,7 +125,6 @@ describe('BusGraph', function() {
     
     it('should accept a new edge when merging twice, with own edges', function() {
       const lGraph = new BusGraph(desc);
-      let hashBefore;
       
       return lGraph.mergeRemoteGraph(tripleNodeRemoteInfo, true).then(changed => {
         assert.ok(changed);
