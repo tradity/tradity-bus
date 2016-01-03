@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/tradity/tradity-bus#readme",
   "devDependencies": {
+    "coveralls": "^2.11.6",
     "istanbul": "*",
     "jshint": "*",
     "mocha": "*"
