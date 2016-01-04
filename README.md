@@ -1,6 +1,7 @@
 tradity-bus
 ===========
 
+[![NPM Version](https://img.shields.io/npm/v/tradity-bus.svg?style=flat)](https://npmjs.org/package/tradity-bus)
 [![Build Status](https://travis-ci.org/tradity/tradity-bus.svg?style=flat&branch=master)](https://travis-ci.org/tradity/tradity-bus?branch=master)
 [![Coverage Status](https://coveralls.io/repos/tradity/tradity-bus/badge.svg?branch=master)](https://coveralls.io/r/tradity/tradity-bus?branch=master)
 [![Dependency Status](https://david-dm.org/tradity/tradity-bus.svg?style=flat)](https://david-dm.org/tradity/tradity-bus)
