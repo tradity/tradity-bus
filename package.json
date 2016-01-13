@@ -5,7 +5,7 @@
     "jshint": "./node_modules/.bin/jshint ."
   },
   "name": "tradity-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for generic communication between remote Node.js instances",
   "main": "index.js",
   "directories": {
