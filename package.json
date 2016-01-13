@@ -36,7 +36,7 @@
   "dependencies": {
     "cytoscape": "^2.5.0",
     "debug": "^2.2.0",
-    "lodash": "~3.10.0",
+    "lodash": "^4.0.0",
     "object-hash": "^1.0.0",
     "promise-events": "^0.1.2"
   }
