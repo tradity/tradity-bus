@@ -7,6 +7,8 @@ tradity-bus
 [![Dependency Status](https://david-dm.org/tradity/tradity-bus.svg?style=flat)](https://david-dm.org/tradity/tradity-bus)
 [![devDependency Status](https://david-dm.org/tradity/tradity-bus/dev-status.svg?style=flat)](https://david-dm.org/tradity/tradity-bus#info=devDependencies)
 
+**Deprecated**: This module is no longer used or maintained.
+
 Node.js module for generic communication between remote Node.js instances
 
 This module provides a generic message passing interface which allows
